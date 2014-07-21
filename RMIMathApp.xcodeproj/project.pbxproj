@@ -19,6 +19,8 @@
 		0AE57D68197D79C8003EFF73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE57D50197D79C8003EFF73 /* UIKit.framework */; };
 		0AE57D70197D79C8003EFF73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AE57D6E197D79C8003EFF73 /* InfoPlist.strings */; };
 		0AE57D72197D79C8003EFF73 /* RMIMathAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE57D71197D79C8003EFF73 /* RMIMathAppTests.m */; };
+		0AE57D7E197D79F5003EFF73 /* RMIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE57D7C197D79F5003EFF73 /* RMIViewController.m */; };
+		0AE57D7F197D79F5003EFF73 /* RMIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AE57D7D197D79F5003EFF73 /* RMIViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		0AE57D6D197D79C8003EFF73 /* RMIMathAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RMIMathAppTests-Info.plist"; sourceTree = "<group>"; };
 		0AE57D6F197D79C8003EFF73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0AE57D71197D79C8003EFF73 /* RMIMathAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMIMathAppTests.m; sourceTree = "<group>"; };
+		0AE57D7B197D79F5003EFF73 /* RMIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMIViewController.h; sourceTree = "<group>"; };
+		0AE57D7C197D79F5003EFF73 /* RMIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMIViewController.m; sourceTree = "<group>"; };
+		0AE57D7D197D79F5003EFF73 /* RMIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RMIViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,9 @@
 		0AE57D40197D79C8003EFF73 = {
 			isa = PBXGroup;
 			children = (
+				0AE57D7B197D79F5003EFF73 /* RMIViewController.h */,
+				0AE57D7C197D79F5003EFF73 /* RMIViewController.m */,
+				0AE57D7D197D79F5003EFF73 /* RMIViewController.xib */,
 				0AE57D52197D79C8003EFF73 /* RMIMathApp */,
 				0AE57D6B197D79C8003EFF73 /* RMIMathAppTests */,
 				0AE57D4B197D79C8003EFF73 /* Frameworks */,
@@ -220,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AE57D7F197D79F5003EFF73 /* RMIViewController.xib in Resources */,
 				0AE57D57197D79C8003EFF73 /* InfoPlist.strings in Resources */,
 				0AE57D5F197D79C8003EFF73 /* Images.xcassets in Resources */,
 			);
@@ -242,6 +251,7 @@
 			files = (
 				0AE57D59197D79C8003EFF73 /* main.m in Sources */,
 				0AE57D5D197D79C8003EFF73 /* RMIAppDelegate.m in Sources */,
+				0AE57D7E197D79F5003EFF73 /* RMIViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
